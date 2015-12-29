@@ -1,0 +1,8 @@
+{
+  "AppSettings": {
+    "SiteEmailAddress": "maximkalin12@gmail.com"
+  }//,
+ // "Data": {
+  //  "WorldContextConnection": "Data Source=(localdb)\\ProjectsV12;Database=TheWorldDb;Trusted_Connection=true;"
+ // }
+}
