@@ -1,6 +1,4 @@
 using Microsoft.AspNet.Mvc;
-using System;
-using System.Linq;
 using TheWorld.Models;
 using TheWorld.Services;
 using TheWorld.ViewModels;
