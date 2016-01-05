@@ -10,9 +10,9 @@ namespace TheWorld.Controllers.Web
     public class AppController : Controller
     {
         private IMailService _mailService;
-        private WorldRepository _repository;
+        private IWorldRepository _repository;
 
-        public AppController(IMailService service,WorldRepository repository)
+        public AppController(IMailService service,IWorldRepository repository)
         {
             _mailService = service;
             _repository = repository;
