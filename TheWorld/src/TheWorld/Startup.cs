@@ -8,6 +8,8 @@ using Microsoft.Extensions.PlatformAbstractions;
 using TheWorld.Models;
 using TheWorld.Services;
 using Newtonsoft.Json.Serialization;
+using AutoMapper;
+using TheWorld.ViewModels;
 
 namespace TheWorld
 {
@@ -58,6 +60,13 @@ namespace TheWorld
             loggerFactory.AddDebug(LogLevel.Warning);
 
             app.UseStaticFiles();
+
+            Mapper.Initialize(config =>
+            {
+                config.CreateMap<Trip, TripViewModel>().ReverseMap();
+            }
+            );
+
             app.UseMvc(config => 
             {
                 config.MapRoute(
