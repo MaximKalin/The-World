@@ -49,10 +49,6 @@ namespace TheWorld
             services.AddScoped<IWorldRepository, WorldRepository>();
         }
 
-        private IContractResolver CamelCasePropertyNamesContractResolver()
-        {
-            throw new NotImplementedException();
-        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, WorldContextSeedData seeder, ILoggerFactory loggerFactory)
