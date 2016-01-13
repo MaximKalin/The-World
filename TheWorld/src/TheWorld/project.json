@@ -1,6 +1,6 @@
 {
   "commands": {
-    "web": "Microsoft.AspNet.Server.Kestrel  --server.urls http://192.168.0.129:9001",
+    "web": "Microsoft.AspNet.Server.Kestrel  --server.urls http://192.168.0.101:9001",
     "ef": "EntityFramework.Commands"
   },
   "compilationOptions": {
@@ -16,7 +16,8 @@
     "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
     "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
     "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final",
-    "AutoMapper" : "4.1.1"
+    "AutoMapper": "4.1.1",
+    "System.Net.Http": "4.0.1-beta-23516"
   },
   "exclude": [
     "wwwroot",

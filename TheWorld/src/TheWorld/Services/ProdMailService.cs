@@ -1,4 +1,4 @@
-using TheWorld.Services.SentMssageToGmail;
+using TheWorld.Services.SentMessageToGmail;
 
 namespace TheWorld.Services
 {

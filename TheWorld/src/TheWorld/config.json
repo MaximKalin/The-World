@@ -1,8 +1,9 @@
 {
   "AppSettings": {
+    "GoogleApiKey": "AIzaSyBzH_b5J3B8GkEOLlfCAoD9eREDyEP4uFc",
     "SiteEmailAddress": "maximkalin12@gmail.com"
-  }//,
- // "Data": {
+  } //,
+  // "Data": {
   //  "WorldContextConnection": "Data Source=(localdb)\\ProjectsV12;Database=TheWorldDb;Trusted_Connection=true;"
- // }
+  // }
 }
