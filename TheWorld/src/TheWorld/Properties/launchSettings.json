@@ -16,6 +16,7 @@
     },
     "web": {
       "commandName": "web",
+      "launchUrl": "http://192.168.0.101:9001",
       "environmentVariables": {
         "Hosting:Environment": "Development"
       }
